@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    tools:context=".ui.homepage.friends.FriendFragment">
+
+    <TextView
+        android:id="@+id/request_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:text="Friend Requests"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/friend_request_recyv"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/friend_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:text="Friends"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/friends_recyv"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/default_textview"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_height="match_parent"
+        android:text="Empty"
+        android:gravity="center"/>
+
+</LinearLayout>

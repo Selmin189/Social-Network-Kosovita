@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "544646728366",
+    "project_id": "kosovo-bbfbf",
+    "storage_bucket": "kosovo-bbfbf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544646728366:android:70c4c38ade2489ae747b3f",
+        "android_client_info": {
+          "package_name": "com.example.kosovo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544646728366-r2f1agabkter6j7qisp64qd85d2m4p6e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kosovo",
+            "certificate_hash": "f0d23c957aa597a4dbacd3ecf79dc5d798bca697"
+          }
+        },
+        {
+          "client_id": "544646728366-dph33v4fgf16enus4c3hr4dh468s425c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGP-CdWvb7BPYdp25NeJhIXZ6URuSfsSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544646728366-dph33v4fgf16enus4c3hr4dh468s425c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

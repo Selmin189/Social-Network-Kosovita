@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Kosovita</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="posts">Posts</string>
+    <string name="add_description">Add description</string>
+    <string name="default_web_client_id">544646728366-dph33v4fgf16enus4c3hr4dh468s425c.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_in">Sign in\n</string>
+    <string name="kosovita">Kosovita</string>
+    <string name="connect_with_friends_ncreate_lasting_memories_n_share_your_moments_n_with_the_world">Connect with friends.\nCreate lasting memories.\n Share your moments.\n With the world.</string>
+
+    <string-array name="privacy_level">
+        <item>Friends</item>
+        <item>Only me</item>
+        <item>Public</item>
+    </string-array>
+</resources>
